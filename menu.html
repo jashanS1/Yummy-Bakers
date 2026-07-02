@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Menu | Yummy Bakers</title>
+  <meta name="description" content="Explore our premium collection of handcrafted cakes, pastries, and desserts.">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@400;500;700&family=Inter:wght@400;500&family=Manrope:wght@300;400;500&family=Playfair+Display:wght@400;500;600&family=Poppins:wght@500;600&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body style="background-color: var(--cream);">
+
+  <!-- Navigation -->
+  <nav class="navbar" style="background: rgba(255, 255, 255, 0.95); box-shadow: 0 4px 30px rgba(0, 0, 0, 0.05); padding: 0.75rem 0;">
+    <div class="container nav-container">
+      <a href="index.html" class="nav-logo">Yummy Bakers.</a>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="menu.html" style="color: var(--premium-gold);">Menu</a>
+        <a href="index.html#builder">Custom Cake</a>
+        <a href="index.html#about">About</a>
+      </div>
+      <a href="https://wa.me/1234567890" target="_blank" class="btn btn-primary magnetic" style="padding: 0.75rem 1.5rem; font-size: 0.9rem;">
+        Order on WhatsApp
+      </a>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+  <header style="padding: 12rem 0 4rem 0; text-align: center; background: var(--white); border-bottom: 1px solid rgba(43,30,24,0.1);">
+    <div class="container reveal">
+      <span style="font-family: var(--font-nav); color: var(--premium-gold); text-transform: uppercase; letter-spacing: 0.15em; font-size: 0.85rem; font-weight: 600;">The Collection</span>
+      <h1 class="h1" style="margin-top: 1rem; color: var(--dark-chocolate);">Our Exquisite Menu</h1>
+      <p class="p" style="margin: 1rem auto 0 auto; max-width: 60ch;">Browse our handcrafted selection of cakes, pastries, and treats. Every item is baked fresh daily using only the finest ingredients.</p>
+    </div>
+  </header>
+
+  <!-- Menu Section -->
+  <section style="padding: 4rem 0 8rem 0;">
+    <div class="container">
+      <!-- Filters -->
+      <div class="reveal delay-100" style="display: flex; justify-content: center; gap: 1rem; margin-bottom: 4rem; flex-wrap: wrap;">
+        <button class="btn btn-primary" style="padding: 0.5rem 1.5rem;">All</button>
+        <button class="btn btn-secondary" style="padding: 0.5rem 1.5rem; border-color: rgba(43,30,24,0.2);">Birthday</button>
+        <button class="btn btn-secondary" style="padding: 0.5rem 1.5rem; border-color: rgba(43,30,24,0.2);">Wedding</button>
+        <button class="btn btn-secondary" style="padding: 0.5rem 1.5rem; border-color: rgba(43,30,24,0.2);">Designer</button>
+        <button class="btn btn-secondary" style="padding: 0.5rem 1.5rem; border-color: rgba(43,30,24,0.2);">Pastries</button>
+        <button class="btn btn-secondary" style="padding: 0.5rem 1.5rem; border-color: rgba(43,30,24,0.2);">Desserts</button>
+      </div>
+      
+      <!-- Grid -->
+      <div class="grid" style="grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 3rem;">
+        
+        <div class="product-card reveal delay-100 glow-on-hover">
+          <div class="badge">Bestseller</div>
+          <div class="product-img-wrapper" style="aspect-ratio: 1/1;">
+            <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?q=80&w=1000&auto=format&fit=crop" alt="Chocolate Truffle Cake" class="product-img">
+          </div>
+          <div class="product-info">
+            <h3 class="product-name">Belgian Chocolate Truffle</h3>
+            <p class="product-desc">Rich, dense, and luxuriously smooth chocolate layers.</p>
+            <div class="product-price price">₹1,200</div>
+            <a href="https://wa.me/1234567890?text=I'd like to order the Belgian Chocolate Truffle cake" class="btn btn-secondary" style="width: 100%;">Add to WhatsApp</a>
+          </div>
+        </div>
+        
+        <div class="product-card reveal delay-200 glow-on-hover">
+          <div class="product-img-wrapper" style="aspect-ratio: 1/1;">
+            <img src="https://images.unsplash.com/photo-1535141192574-5d4897c12636?q=80&w=1000&auto=format&fit=crop" alt="Designer Blue Cake" class="product-img">
+          </div>
+          <div class="product-info">
+            <h3 class="product-name">Designer Blue Art</h3>
+            <p class="product-desc">Hand-painted buttercream with gold leaf accents.</p>
+            <div class="product-price price">₹1,800</div>
+            <a href="https://wa.me/1234567890?text=I'd like to order the Designer Blue Art cake" class="btn btn-secondary" style="width: 100%;">Add to WhatsApp</a>
+          </div>
+        </div>
+        
+        <div class="product-card reveal delay-300 glow-on-hover">
+          <div class="badge">New</div>
+          <div class="product-img-wrapper" style="aspect-ratio: 1/1;">
+            <img src="https://images.unsplash.com/photo-1621303837174-89787a7d4729?q=80&w=1000&auto=format&fit=crop" alt="Classic Vanilla Cake" class="product-img">
+          </div>
+          <div class="product-info">
+            <h3 class="product-name">Fresh Fruit Vanilla</h3>
+            <p class="product-desc">Light sponge topped with seasonal fresh fruits.</p>
+            <div class="product-price price">₹950</div>
+            <a href="https://wa.me/1234567890?text=I'd like to order the Fresh Fruit Vanilla cake" class="btn btn-secondary" style="width: 100%;">Add to WhatsApp</a>
+          </div>
+        </div>
+
+        <div class="product-card reveal delay-100 glow-on-hover">
+          <div class="product-img-wrapper" style="aspect-ratio: 1/1;">
+            <img src="https://images.unsplash.com/photo-1557308536-ee471ef2c3d9?q=80&w=1000&auto=format&fit=crop" alt="Wedding Cake" class="product-img">
+          </div>
+          <div class="product-info">
+            <h3 class="product-name">2-Tier Floral Wedding</h3>
+            <p class="product-desc">Elegant white fondant with fresh edible flowers.</p>
+            <div class="product-price price">₹4,500</div>
+            <a href="https://wa.me/1234567890?text=I'd like to order the 2-Tier Floral Wedding cake" class="btn btn-secondary" style="width: 100%;">Add to WhatsApp</a>
+          </div>
+        </div>
+
+        <div class="product-card reveal delay-200 glow-on-hover">
+          <div class="product-img-wrapper" style="aspect-ratio: 1/1;">
+            <img src="https://images.unsplash.com/photo-1558961363-fa8fdf82db35?q=80&w=1000&auto=format&fit=crop" alt="Macarons" class="product-img">
+          </div>
+          <div class="product-info">
+            <h3 class="product-name">Assorted Macarons</h3>
+            <p class="product-desc">Box of 6 premium French macarons in various flavors.</p>
+            <div class="product-price price">₹600</div>
+            <a href="https://wa.me/1234567890?text=I'd like to order the Assorted Macarons" class="btn btn-secondary" style="width: 100%;">Add to WhatsApp</a>
+          </div>
+        </div>
+
+        <div class="product-card reveal delay-300 glow-on-hover">
+          <div class="product-img-wrapper" style="aspect-ratio: 1/1;">
+            <img src="https://images.unsplash.com/photo-1587668178277-295251f900ce?q=80&w=1000&auto=format&fit=crop" alt="Cupcakes" class="product-img">
+          </div>
+          <div class="product-info">
+            <h3 class="product-name">Red Velvet Cupcakes</h3>
+            <p class="product-desc">Classic red velvet with signature cream cheese frosting.</p>
+            <div class="product-price price">₹450</div>
+            <a href="https://wa.me/1234567890?text=I'd like to order Red Velvet Cupcakes" class="btn btn-secondary" style="width: 100%;">Add to WhatsApp</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer style="background-color: var(--dark-chocolate); color: var(--white); padding: var(--space-xl) 0 2rem 0;">
+    <div class="container grid" style="border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: var(--space-lg); margin-bottom: var(--space-md);">
+      
+      <div style="grid-column: 1 / 5;">
+        <h2 style="font-family: var(--font-heading); font-size: 2.5rem; margin-bottom: 1rem; color: var(--premium-gold);">Yummy Bakers.</h2>
+        <p style="color: rgba(255,255,255,0.7); max-width: 30ch; margin-bottom: 2rem;">Best Bakers in Bathinda. Premium handcrafted cakes, pastries and bakery delights made fresh every day.</p>
+        <p style="color: rgba(255,255,255,0.7); font-family: var(--font-nav); font-size: 0.9rem;">
+          Ajit Road, Opposite Street Number 3,<br>
+          Bathinda, Punjab
+        </p>
+      </div>
+
+      <div style="grid-column: 6 / 8;">
+        <h4 style="font-family: var(--font-nav); font-size: 1rem; margin-bottom: 1.5rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--premium-gold);">Menu</h4>
+        <ul style="display: flex; flex-direction: column; gap: 0.75rem; color: rgba(255,255,255,0.7);">
+          <li><a href="#" style="transition: color 0.3s;" onmouseover="this.style.color='var(--white)'" onmouseout="this.style.color='rgba(255,255,255,0.7)'">Birthday Cakes</a></li>
+          <li><a href="#" style="transition: color 0.3s;" onmouseover="this.style.color='var(--white)'" onmouseout="this.style.color='rgba(255,255,255,0.7)'">Wedding Cakes</a></li>
+          <li><a href="#" style="transition: color 0.3s;" onmouseover="this.style.color='var(--white)'" onmouseout="this.style.color='rgba(255,255,255,0.7)'">Designer Cakes</a></li>
+          <li><a href="#" style="transition: color 0.3s;" onmouseover="this.style.color='var(--white)'" onmouseout="this.style.color='rgba(255,255,255,0.7)'">Pastries & Desserts</a></li>
+        </ul>
+      </div>
+
+      <div style="grid-column: 9 / 13;">
+        <h4 style="font-family: var(--font-nav); font-size: 1rem; margin-bottom: 1.5rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--premium-gold);">Stay Updated</h4>
+        <p style="color: rgba(255,255,255,0.7); margin-bottom: 1rem;">Subscribe to get special offers and updates.</p>
+        <form style="display: flex; gap: 0.5rem;">
+          <input type="email" placeholder="Your email address" style="padding: 1rem 1.5rem; width: 100%; border-radius: var(--border-radius-full); border: none; outline: none; font-family: var(--font-nav);">
+          <button type="submit" class="btn btn-primary" style="padding: 1rem 2rem;">Subscribe</button>
+        </form>
+      </div>
+
+    </div>
+    
+    <div class="container" style="display: flex; justify-content: space-between; align-items: center; color: rgba(255,255,255,0.5); font-size: 0.875rem; font-family: var(--font-nav);">
+      <p>&copy; 2026 Yummy Bakers. All rights reserved.</p>
+      <div style="display: flex; gap: 1rem;">
+        <a href="#" style="transition: color 0.3s;" onmouseover="this.style.color='var(--white)'" onmouseout="this.style.color='rgba(255,255,255,0.5)'">Instagram</a>
+        <a href="#" style="transition: color 0.3s;" onmouseover="this.style.color='var(--white)'" onmouseout="this.style.color='rgba(255,255,255,0.5)'">Facebook</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+body {
+  font-family: var(--font-body);
+  line-height: 1.6;
+  color: var(--text-color);
+}
+
+h1, .h1 {
+  font-family: var(--font-heading);
+  font-size: clamp(3rem, 6vw, 5.5rem);
+  line-height: 1.1;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+
+h2, .h2 {
+  font-family: var(--font-heading);
+  font-size: clamp(2.5rem, 4vw, 4rem);
+  line-height: 1.2;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+h3, .h3 {
+  font-family: var(--font-subheading);
+  font-size: clamp(1.5rem, 2.5vw, 2.5rem);
+  line-height: 1.3;
+  font-weight: 500;
+}
+
+h4, .h4 {
+  font-family: var(--font-subheading);
+  font-size: clamp(1.25rem, 2vw, 1.75rem);
+  line-height: 1.4;
+  font-weight: 500;
+}
+
+p, .p {
+  font-size: clamp(1rem, 1.1vw, 1.125rem);
+  color: var(--warm-brown);
+  max-width: 65ch;
+}
+
+.text-gold {
+  color: var(--premium-gold);
+}
+
+.text-chocolate {
+  color: var(--dark-chocolate);
+}
+
+.price {
+  font-family: var(--font-price);
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: var(--dark-chocolate);
+}

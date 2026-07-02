@@ -1,0 +1,46 @@
+:root {
+  /* Colors */
+  --bg-color: #FFFDF9;
+  --cream: #F8F4EE;
+  --dark-chocolate: #2B1E18;
+  --premium-gold: #C9A15D;
+  --warm-brown: #5A4033;
+  --soft-pink: #F4D8D6;
+  --text-color: #1B1B1B;
+  --white: #FFFFFF;
+  
+  /* Fonts */
+  --font-heading: 'Cormorant Garamond', serif;
+  --font-subheading: 'Playfair Display', serif;
+  --font-body: 'Manrope', sans-serif;
+  --font-button: 'Poppins', sans-serif;
+  --font-price: 'DM Sans', sans-serif;
+  --font-nav: 'Inter', sans-serif;
+
+  /* Spacing */
+  --space-xs: 0.5rem;
+  --space-sm: 1rem;
+  --space-md: 2rem;
+  --space-lg: 4rem;
+  --space-xl: 8rem;
+
+  /* Grid */
+  --container-width: 1440px;
+  --grid-gap: 2rem;
+
+  /* Borders & Shadows */
+  --border-radius-sm: 4px;
+  --border-radius-md: 8px;
+  --border-radius-lg: 16px;
+  --border-radius-full: 9999px;
+  
+  --shadow-soft: 0 10px 40px rgba(43, 30, 24, 0.05);
+  --shadow-hover: 0 20px 60px rgba(43, 30, 24, 0.1);
+  --glass-bg: rgba(255, 255, 255, 0.7);
+  --glass-border: rgba(255, 255, 255, 0.4);
+
+  /* Transitions */
+  --transition-fast: 0.2s cubic-bezier(0.25, 1, 0.5, 1);
+  --transition-smooth: 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+  --transition-slow: 1.2s cubic-bezier(0.16, 1, 0.3, 1);
+}

@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yummy Bakers | Premium Custom Cakes in Bathinda</title>
+  <meta name="description" content="Best Bakers in Bathinda. Premium handcrafted cakes, pastries and bakery delights made fresh every day. Order birthday and wedding cakes.">
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@400;500;700&family=Inter:wght@400;500&family=Manrope:wght@300;400;500&family=Playfair+Display:wght@400;500;600&family=Poppins:wght@500;600&display=swap" rel="stylesheet">
+  
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Loading Screen -->
+  <div class="loader-wrapper">
+    <div class="loader-text">Yummy Bakers</div>
+  </div>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="container nav-container">
+      <a href="index.html" class="nav-logo">Yummy Bakers.</a>
+      <div class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#featured">Collection</a>
+        <a href="#builder">Custom Cake</a>
+        <a href="#about">About</a>
+      </div>
+      <a href="https://wa.me/1234567890" target="_blank" class="btn btn-primary magnetic" style="padding: 0.75rem 1.5rem; font-size: 0.9rem;">
+        Order on WhatsApp
+      </a>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <!-- Placeholder for luxury bakery image. In production, use high res WebP -->
+    <img src="https://images.unsplash.com/photo-1557308536-ee471ef2c3d9?q=80&w=2000&auto=format&fit=crop" alt="Premium Bakery" class="hero-bg parallax-bg" data-speed="0.3">
+    <div class="hero-overlay"></div>
+    
+    <div class="container grid">
+      <div class="hero-content reveal">
+        <h1 class="hero-title">Crafting Sweet Moments,<br>One Cake at a Time.</h1>
+        <p class="hero-subtitle p">Premium handcrafted cakes, pastries and bakery delights made fresh every day in Bathinda.</p>
+        
+        <div class="hero-buttons">
+          <a href="https://wa.me/1234567890" class="btn btn-primary magnetic">Order on WhatsApp</a>
+          <a href="#featured" class="btn btn-secondary magnetic">Explore Collection</a>
+        </div>
+        
+        <div class="hero-stats reveal delay-200">
+          <div class="stat-item">
+            <span class="stat-value">239+</span>
+            <span class="stat-label">Reviews</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-value text-gold">4.4★</span>
+            <span class="stat-label">Google Rating</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-value">Fresh</span>
+            <span class="stat-label">Everyday</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Collection -->
+  <section id="featured" style="background-color: var(--bg-color);">
+    <div class="container">
+      <div class="flex flex-col items-center justify-center reveal" style="text-align: center; margin-bottom: var(--space-lg);">
+        <h2 class="h2">Signature Collection</h2>
+        <p class="p" style="margin-top: 1rem;">Our most loved, premium crafted delicacies.</p>
+      </div>
+      
+      <div class="grid" style="grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 3rem;">
+        <!-- Card 1 -->
+        <div class="product-card reveal delay-100 glow-on-hover">
+          <div class="badge">Bestseller</div>
+          <div class="product-img-wrapper">
+            <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?q=80&w=1000&auto=format&fit=crop" alt="Chocolate Truffle Cake" class="product-img">
+          </div>
+          <div class="product-info">
+            <h3 class="product-name">Belgian Chocolate Truffle</h3>
+            <p class="product-desc">Rich, dense, and luxuriously smooth chocolate layers.</p>
+            <div class="product-price price">₹1,200</div>
+            <a href="#" class="btn btn-secondary" style="width: 100%;">Order Now</a>
+          </div>
+        </div>
+        
+        <!-- Card 2 -->
+        <div class="product-card reveal delay-200 glow-on-hover">
+          <div class="product-img-wrapper">
+            <img src="https://images.unsplash.com/photo-1535141192574-5d4897c12636?q=80&w=1000&auto=format&fit=crop" alt="Designer Blue Cake" class="product-img">
+          </div>
+          <div class="product-info">
+            <h3 class="product-name">Designer Blue Art</h3>
+            <p class="product-desc">Hand-painted buttercream with gold leaf accents.</p>
+            <div class="product-price price">₹1,800</div>
+            <a href="#" class="btn btn-secondary" style="width: 100%;">Order Now</a>
+          </div>
+        </div>
+        
+        <!-- Card 3 -->
+        <div class="product-card reveal delay-300 glow-on-hover">
+          <div class="badge">New</div>
+          <div class="product-img-wrapper">
+            <img src="https://images.unsplash.com/photo-1621303837174-89787a7d4729?q=80&w=1000&auto=format&fit=crop" alt="Classic Vanilla Cake" class="product-img">
+          </div>
+          <div class="product-info">
+            <h3 class="product-name">Fresh Fruit Vanilla</h3>
+            <p class="product-desc">Light sponge topped with seasonal fresh fruits.</p>
+            <div class="product-price price">₹950</div>
+            <a href="#" class="btn btn-secondary" style="width: 100%;">Order Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Brand Section -->
+  <section id="about" style="background-color: var(--white); position: relative; overflow: hidden; padding: 6rem 0;">
+    <div class="container grid" style="align-items: center; gap: 4rem;">
+      <div style="grid-column: 1 / 7;" class="reveal">
+        <div style="position: relative; border-radius: 24px; overflow: hidden; aspect-ratio: 4/5; box-shadow: var(--shadow-hover);">
+          <img src="https://images.unsplash.com/photo-1556217477-d325251ece38?q=80&w=1000&auto=format&fit=crop" alt="Our Bakery Team" class="parallax-bg" data-speed="0.1" style="width: 100%; height: 110%; object-fit: cover;">
+          <!-- Floating badge -->
+          <div style="position: absolute; bottom: 2rem; right: -2rem; background: var(--glass-bg); backdrop-filter: blur(15px); padding: 1.5rem; border-radius: var(--border-radius-lg); box-shadow: var(--shadow-hover); border: 1px solid var(--glass-border); transform: translateX(-50%);">
+            <h4 style="font-family: var(--font-heading); font-size: 2rem; color: var(--premium-gold); margin-bottom: 0;">15+ Years</h4>
+            <p style="font-size: 0.85rem; color: var(--dark-chocolate); text-transform: uppercase; letter-spacing: 0.1em; margin: 0;">Of Baking Excellence</p>
+          </div>
+        </div>
+      </div>
+      
+      <div style="grid-column: 7 / 13;" class="reveal delay-200">
+        <span style="font-family: var(--font-nav); color: var(--premium-gold); text-transform: uppercase; letter-spacing: 0.15em; font-size: 0.85rem; font-weight: 600;">Our Story</span>
+        <h2 class="h2" style="margin-top: 1rem; margin-bottom: 1.5rem;">Baking With Passion In the Heart of Bathinda</h2>
+        <p class="p" style="margin-bottom: 1.5rem;">For over a decade, Yummy Bakers has been synonymous with celebration. Every recipe is a well-kept secret, passed down and perfected to bring you tastes that linger long after the last bite.</p>
+        <p class="p" style="margin-bottom: 2.5rem;">Located at Ajit Road, we pride ourselves on using only the finest ingredients—pure butter, rich Belgian chocolate, and fresh, locally sourced fruits. No preservatives, just pure indulgence.</p>
+        
+        <ul style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 3rem;">
+          <li style="display: flex; align-items: center; gap: 0.75rem; font-weight: 500;">
+            <span style="color: var(--premium-gold); font-size: 1.2rem;">✔</span> Premium Ingredients
+          </li>
+          <li style="display: flex; align-items: center; gap: 0.75rem; font-weight: 500;">
+            <span style="color: var(--premium-gold); font-size: 1.2rem;">✔</span> Handcrafted Daily
+          </li>
+          <li style="display: flex; align-items: center; gap: 0.75rem; font-weight: 500;">
+            <span style="color: var(--premium-gold); font-size: 1.2rem;">✔</span> Custom Designs
+          </li>
+          <li style="display: flex; align-items: center; gap: 0.75rem; font-weight: 500;">
+            <span style="color: var(--premium-gold); font-size: 1.2rem;">✔</span> Exceptional Service
+          </li>
+        </ul>
+        
+        <a href="#builder" class="btn btn-secondary magnetic">Design Your Cake</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Customer Reviews -->
+  <section id="reviews" style="background-color: var(--dark-chocolate); color: var(--white); padding: 8rem 0;">
+    <div class="container">
+      <div class="flex justify-between items-center reveal" style="margin-bottom: 4rem;">
+        <div>
+          <h2 class="h2" style="color: var(--cream);">Client Love</h2>
+          <p style="color: rgba(255,255,255,0.7); font-size: 1.1rem; margin-top: 0.5rem;">What Bathinda says about our creations.</p>
+        </div>
+        <div style="text-align: right;">
+          <div style="font-size: 3rem; font-family: var(--font-heading); color: var(--premium-gold); line-height: 1;">4.4<span style="font-size: 1.5rem;">★</span></div>
+          <p style="font-family: var(--font-nav); font-size: 0.85rem; color: rgba(255,255,255,0.5); text-transform: uppercase; letter-spacing: 0.1em; margin-top: 0.5rem;">From 239+ Google Reviews</p>
+        </div>
+      </div>
+      
+      <div class="grid" style="grid-template-columns: repeat(3, 1fr); gap: 2rem;">
+        <!-- Review 1 -->
+        <div class="reveal delay-100" style="background: rgba(255,255,255,0.05); padding: 2.5rem; border-radius: var(--border-radius-lg); border: 1px solid rgba(255,255,255,0.1); transition: transform 0.3s ease;" onmouseover="this.style.transform='translateY(-10px)'; this.style.borderColor='var(--premium-gold)'" onmouseout="this.style.transform='translateY(0)'; this.style.borderColor='rgba(255,255,255,0.1)'">
+          <div style="display: flex; gap: 0.25rem; color: var(--premium-gold); margin-bottom: 1.5rem; font-size: 1.2rem;">★★★★★</div>
+          <p style="font-family: var(--font-subheading); font-size: 1.1rem; line-height: 1.6; color: var(--cream); margin-bottom: 2rem; font-style: italic;">"Ordered a customized designer cake for my daughter's birthday. Not only was the design flawless, but the taste was out of this world. Highly recommend!"</p>
+          <div style="display: flex; align-items: center; gap: 1rem;">
+            <div style="width: 45px; height: 45px; border-radius: 50%; background: var(--premium-gold); color: var(--dark-chocolate); display: flex; align-items: center; justify-content: center; font-family: var(--font-heading); font-weight: 700; font-size: 1.2rem;">P</div>
+            <div>
+              <h5 style="font-family: var(--font-nav); font-weight: 600; font-size: 0.95rem; margin: 0;">Priya Sharma</h5>
+              <span style="font-family: var(--font-nav); font-size: 0.8rem; color: rgba(255,255,255,0.5);">Birthday Customer</span>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Review 2 -->
+        <div class="reveal delay-200" style="background: rgba(255,255,255,0.05); padding: 2.5rem; border-radius: var(--border-radius-lg); border: 1px solid rgba(255,255,255,0.1); transition: transform 0.3s ease;" onmouseover="this.style.transform='translateY(-10px)'; this.style.borderColor='var(--premium-gold)'" onmouseout="this.style.transform='translateY(0)'; this.style.borderColor='rgba(255,255,255,0.1)'">
+          <div style="display: flex; gap: 0.25rem; color: var(--premium-gold); margin-bottom: 1.5rem; font-size: 1.2rem;">★★★★★</div>
+          <p style="font-family: var(--font-subheading); font-size: 1.1rem; line-height: 1.6; color: var(--cream); margin-bottom: 2rem; font-style: italic;">"Best Belgian chocolate cake in Bathinda! The premium quality is evident in every bite. Their packaging and delivery service are top-notch as well."</p>
+          <div style="display: flex; align-items: center; gap: 1rem;">
+            <div style="width: 45px; height: 45px; border-radius: 50%; background: var(--premium-gold); color: var(--dark-chocolate); display: flex; align-items: center; justify-content: center; font-family: var(--font-heading); font-weight: 700; font-size: 1.2rem;">R</div>
+            <div>
+              <h5 style="font-family: var(--font-nav); font-weight: 600; font-size: 0.95rem; margin: 0;">Rahul Verma</h5>
+              <span style="font-family: var(--font-nav); font-size: 0.8rem; color: rgba(255,255,255,0.5);">Regular Client</span>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Review 3 -->
+        <div class="reveal delay-300" style="background: rgba(255,255,255,0.05); padding: 2.5rem; border-radius: var(--border-radius-lg); border: 1px solid rgba(255,255,255,0.1); transition: transform 0.3s ease;" onmouseover="this.style.transform='translateY(-10px)'; this.style.borderColor='var(--premium-gold)'" onmouseout="this.style.transform='translateY(0)'; this.style.borderColor='rgba(255,255,255,0.1)'">
+          <div style="display: flex; gap: 0.25rem; color: var(--premium-gold); margin-bottom: 1.5rem; font-size: 1.2rem;">★★★★★</div>
+          <p style="font-family: var(--font-subheading); font-size: 1.1rem; line-height: 1.6; color: var(--cream); margin-bottom: 2rem; font-style: italic;">"They handled our wedding cake order perfectly. We wanted something minimal yet luxurious, and they delivered exactly that. Truly the best."</p>
+          <div style="display: flex; align-items: center; gap: 1rem;">
+            <div style="width: 45px; height: 45px; border-radius: 50%; background: var(--premium-gold); color: var(--dark-chocolate); display: flex; align-items: center; justify-content: center; font-family: var(--font-heading); font-weight: 700; font-size: 1.2rem;">S</div>
+            <div>
+              <h5 style="font-family: var(--font-nav); font-weight: 600; font-size: 0.95rem; margin: 0;">Simran Kaur</h5>
+              <span style="font-family: var(--font-nav); font-size: 0.8rem; color: rgba(255,255,255,0.5);">Wedding Customer</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Custom Cake Builder -->
+  <section id="builder" class="builder-section" style="background-color: var(--cream); position: relative; overflow: hidden;">
+    <!-- Abstract Shapes for luxury feel -->
+    <div style="position: absolute; top: -10%; left: -10%; width: 50vw; height: 50vw; background: radial-gradient(circle, var(--soft-pink) 0%, transparent 70%); opacity: 0.4; z-index: 0; border-radius: 50%; filter: blur(60px);"></div>
+    <div style="position: absolute; bottom: -10%; right: -10%; width: 40vw; height: 40vw; background: radial-gradient(circle, var(--premium-gold) 0%, transparent 70%); opacity: 0.15; z-index: 0; border-radius: 50%; filter: blur(60px);"></div>
+    
+    <div class="container grid" style="position: relative; z-index: 1; align-items: center;">
+      <div style="grid-column: 1 / 6;" class="reveal">
+        <h2 class="h2">Craft Your<br><span class="text-gold">Dream Cake</span></h2>
+        <p class="p" style="margin-top: 1rem; margin-bottom: 2rem;">Design a personalized masterpiece for your special occasion. Select your preferences and let our expert bakers handle the rest.</p>
+        
+        <div style="background: var(--glass-bg); padding: 2rem; border-radius: var(--border-radius-lg); backdrop-filter: blur(20px); border: 1px solid var(--glass-border); box-shadow: var(--shadow-soft);">
+          <div style="display: flex; justify-content: space-between; align-items: flex-end; margin-bottom: 1.5rem; border-bottom: 1px solid rgba(43,30,24,0.1); padding-bottom: 1rem;">
+            <div>
+              <span style="font-family: var(--font-nav); text-transform: uppercase; letter-spacing: 0.1em; font-size: 0.8rem; color: var(--warm-brown);">Estimated Price</span>
+              <div id="live-price" class="price" style="font-size: 2.5rem; margin-top: 0.5rem;">₹800</div>
+            </div>
+            <a href="https://wa.me/1234567890" class="btn btn-primary magnetic" style="padding: 0.75rem 1.5rem;">Order via WhatsApp</a>
+          </div>
+          <p style="font-size: 0.85rem; color: var(--warm-brown); text-align: center;">Prices are estimates and may vary based on complex customizations.</p>
+        </div>
+      </div>
+      
+      <div style="grid-column: 7 / 13;" class="reveal delay-200">
+        <form class="builder-form" style="background: var(--white); padding: 3rem; border-radius: var(--border-radius-lg); box-shadow: var(--shadow-hover);">
+          <div class="grid" style="gap: 1.5rem;">
+            <div style="grid-column: span 6;">
+              <label for="cake-flavor" style="display: block; font-family: var(--font-nav); font-weight: 500; margin-bottom: 0.5rem; font-size: 0.9rem;">Flavor</label>
+              <select id="cake-flavor" style="width: 100%; padding: 1rem; border: 1px solid rgba(43,30,24,0.1); border-radius: var(--border-radius-md); font-family: var(--font-body); background: var(--bg-color); outline: none; transition: var(--transition-fast);">
+                <option value="chocolate">Belgian Chocolate</option>
+                <option value="vanilla">Madagascar Vanilla</option>
+                <option value="redvelvet">Classic Red Velvet</option>
+                <option value="butterscotch">Caramel Butterscotch</option>
+              </select>
+            </div>
+            
+            <div style="grid-column: span 6;">
+              <label for="cake-weight" style="display: block; font-family: var(--font-nav); font-weight: 500; margin-bottom: 0.5rem; font-size: 0.9rem;">Weight (kg)</label>
+              <input type="number" id="cake-weight" value="1" min="0.5" step="0.5" style="width: 100%; padding: 1rem; border: 1px solid rgba(43,30,24,0.1); border-radius: var(--border-radius-md); font-family: var(--font-body); background: var(--bg-color); outline: none; transition: var(--transition-fast);">
+            </div>
+            
+            <div style="grid-column: span 6;">
+              <label for="cake-theme" style="display: block; font-family: var(--font-nav); font-weight: 500; margin-bottom: 0.5rem; font-size: 0.9rem;">Theme / Occasion</label>
+              <select id="cake-theme" style="width: 100%; padding: 1rem; border: 1px solid rgba(43,30,24,0.1); border-radius: var(--border-radius-md); font-family: var(--font-body); background: var(--bg-color); outline: none;">
+                <option value="birthday">Birthday Classic</option>
+                <option value="designer">Designer Premium</option>
+                <option value="wedding">Wedding Tiered</option>
+                <option value="anniversary">Romantic Anniversary</option>
+              </select>
+            </div>
+            
+            <div style="grid-column: span 6;">
+              <label for="cake-shape" style="display: block; font-family: var(--font-nav); font-weight: 500; margin-bottom: 0.5rem; font-size: 0.9rem;">Shape</label>
+              <select id="cake-shape" style="width: 100%; padding: 1rem; border: 1px solid rgba(43,30,24,0.1); border-radius: var(--border-radius-md); font-family: var(--font-body); background: var(--bg-color); outline: none;">
+                <option value="round">Perfect Round</option>
+                <option value="square">Modern Square</option>
+                <option value="heart">Heart Shape</option>
+              </select>
+            </div>
+
+            <div style="grid-column: span 12;">
+              <label for="cake-message" style="display: block; font-family: var(--font-nav); font-weight: 500; margin-bottom: 0.5rem; font-size: 0.9rem;">Custom Message on Cake</label>
+              <input type="text" id="cake-message" placeholder="e.g. Happy Birthday Sarah!" style="width: 100%; padding: 1rem; border: 1px solid rgba(43,30,24,0.1); border-radius: var(--border-radius-md); font-family: var(--font-body); background: var(--bg-color); outline: none;">
+            </div>
+            
+            <div style="grid-column: span 12;">
+              <label style="display: block; font-family: var(--font-nav); font-weight: 500; margin-bottom: 0.5rem; font-size: 0.9rem;">Reference Photo (Optional)</label>
+              <div style="border: 2px dashed rgba(43,30,24,0.2); padding: 2rem; text-align: center; border-radius: var(--border-radius-md); cursor: pointer; transition: var(--transition-fast);" onmouseover="this.style.borderColor='var(--premium-gold)'" onmouseout="this.style.borderColor='rgba(43,30,24,0.2)'">
+                <p style="font-family: var(--font-nav); color: var(--warm-brown); font-size: 0.9rem;">Click to upload or drag and drop<br>SVG, PNG, JPG or GIF (max. 5MB)</p>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Photo Gallery -->
+  <section id="gallery" style="background-color: var(--bg-color);">
+    <div class="container">
+      <div class="flex flex-col items-center justify-center reveal" style="text-align: center; margin-bottom: var(--space-lg);">
+        <h2 class="h2">Our Creations</h2>
+        <p class="p" style="margin-top: 1rem;">A glimpse into our luxurious and handcrafted bakery art.</p>
+      </div>
+      
+      <!-- Masonry Grid -->
+      <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; grid-auto-rows: 250px;">
+        <div class="reveal delay-100" style="grid-row: span 2; border-radius: var(--border-radius-lg); overflow: hidden; position: relative;">
+          <img src="https://images.unsplash.com/photo-1558961363-fa8fdf82db35?q=80&w=800&auto=format&fit=crop" style="width:100%; height:100%; object-fit:cover; transition: transform 0.8s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+        </div>
+        <div class="reveal delay-200" style="border-radius: var(--border-radius-lg); overflow: hidden; position: relative;">
+          <img src="https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?q=80&w=800&auto=format&fit=crop" style="width:100%; height:100%; object-fit:cover; transition: transform 0.8s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+        </div>
+        <div class="reveal delay-300" style="grid-row: span 2; border-radius: var(--border-radius-lg); overflow: hidden; position: relative;">
+          <img src="https://images.unsplash.com/photo-1535241749838-299277b6305f?q=80&w=800&auto=format&fit=crop" style="width:100%; height:100%; object-fit:cover; transition: transform 0.8s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+        </div>
+        <div class="reveal delay-200" style="border-radius: var(--border-radius-lg); overflow: hidden; position: relative;">
+          <img src="https://images.unsplash.com/photo-1602351447937-745cb720612f?q=80&w=800&auto=format&fit=crop" style="width:100%; height:100%; object-fit:cover; transition: transform 0.8s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer style="background-color: var(--dark-chocolate); color: var(--white); padding: var(--space-xl) 0 2rem 0;">
+    <div class="container grid" style="border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: var(--space-lg); margin-bottom: var(--space-md);">
+      
+      <div style="grid-column: 1 / 5;">
+        <h2 style="font-family: var(--font-heading); font-size: 2.5rem; margin-bottom: 1rem; color: var(--premium-gold);">Yummy Bakers.</h2>
+        <p style="color: rgba(255,255,255,0.7); max-width: 30ch; margin-bottom: 2rem;">Best Bakers in Bathinda. Premium handcrafted cakes, pastries and bakery delights made fresh every day.</p>
+        <p style="color: rgba(255,255,255,0.7); font-family: var(--font-nav); font-size: 0.9rem;">
+          Ajit Road, Opposite Street Number 3,<br>
+          Bathinda, Punjab
+        </p>
+      </div>
+
+      <div style="grid-column: 6 / 8;">
+        <h4 style="font-family: var(--font-nav); font-size: 1rem; margin-bottom: 1.5rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--premium-gold);">Menu</h4>
+        <ul style="display: flex; flex-direction: column; gap: 0.75rem; color: rgba(255,255,255,0.7);">
+          <li><a href="#" style="transition: color 0.3s;" onmouseover="this.style.color='var(--white)'" onmouseout="this.style.color='rgba(255,255,255,0.7)'">Birthday Cakes</a></li>
+          <li><a href="#" style="transition: color 0.3s;" onmouseover="this.style.color='var(--white)'" onmouseout="this.style.color='rgba(255,255,255,0.7)'">Wedding Cakes</a></li>
+          <li><a href="#" style="transition: color 0.3s;" onmouseover="this.style.color='var(--white)'" onmouseout="this.style.color='rgba(255,255,255,0.7)'">Designer Cakes</a></li>
+          <li><a href="#" style="transition: color 0.3s;" onmouseover="this.style.color='var(--white)'" onmouseout="this.style.color='rgba(255,255,255,0.7)'">Pastries & Desserts</a></li>
+        </ul>
+      </div>
+
+      <div style="grid-column: 9 / 13;">
+        <h4 style="font-family: var(--font-nav); font-size: 1rem; margin-bottom: 1.5rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--premium-gold);">Stay Updated</h4>
+        <p style="color: rgba(255,255,255,0.7); margin-bottom: 1rem;">Subscribe to get special offers and updates.</p>
+        <form style="display: flex; gap: 0.5rem;">
+          <input type="email" placeholder="Your email address" style="padding: 1rem 1.5rem; width: 100%; border-radius: var(--border-radius-full); border: none; outline: none; font-family: var(--font-nav);">
+          <button type="submit" class="btn btn-primary" style="padding: 1rem 2rem;">Subscribe</button>
+        </form>
+      </div>
+
+    </div>
+    
+    <div class="container" style="display: flex; justify-content: space-between; align-items: center; color: rgba(255,255,255,0.5); font-size: 0.875rem; font-family: var(--font-nav);">
+      <p>&copy; 2026 Yummy Bakers. All rights reserved.</p>
+      <div style="display: flex; gap: 1rem;">
+        <a href="#" style="transition: color 0.3s;" onmouseover="this.style.color='var(--white)'" onmouseout="this.style.color='rgba(255,255,255,0.5)'">Instagram</a>
+        <a href="#" style="transition: color 0.3s;" onmouseover="this.style.color='var(--white)'" onmouseout="this.style.color='rgba(255,255,255,0.5)'">Facebook</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JS Scripts -->
+  <script src="js/app.js"></script>
+</body>
+</html>
